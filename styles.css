@@ -31,3 +31,40 @@ top:0px;
     background-color: #666;
     color: white;
     }
+
+img{
+        cursor: pointer;
+        width: 170px;
+        height: 250px;
+        /*margin-left: 20%;*/
+    }
+    
+.col-sm-4{
+        text-align: center;
+    }
+    
+.col-sm-4:hover{
+        background-color:rgba(245, 245, 245, 0.596);
+        padding: 3px;
+        
+    }
+    
+#title{
+        text-align: center;
+        width: 100%;
+        height: 70px;
+        
+}
+h1{
+        text-align: center;
+        width: 100%;
+        height: 40px;
+        font-weight: 500;
+    
+}
+hr{
+        height:2px;border-width:0;color:gray;background-color:gray;
+}
+.side{
+    margin-left: 20px;
+}
