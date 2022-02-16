@@ -27,6 +27,41 @@
         </div>   
     </section>
 
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="book_img.jpg" alt="book" style="width:100% ; height: 450px;">
+      
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="book_trailer.jpg" style="width:100% ;  height:450px">
+    
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="new_releases.png" style="width:100%; ; height:450px">
+      
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
     <div id="title" >
       <h1>All Categories</h1>
   </div>
@@ -64,6 +99,48 @@
           </div>
       </div>
   </div>
-
+  <br>
+    <div id="bestseller" style="background-color: lightgray;">
+        <div class="row">
+            <div class="side" >
+                <h1>  Bestseller Books</h1>
+                <i>Read the best of the best</i>
+                <hr style= "margin-left: 0%;">
+                <button class="button" style="background-color: tomato"> Veiw All</button>
+                <button class="button" style="margin-left: 20px">Read More</button>
+                
+            </div>
+            <div class="main" style="background-color:lightgray;">
+                <div class="row">
+                    <div class="card">
+                        <img src="The_alchemist.jfif" alt="book">
+                        <h4>The alchemist</h4>
+                        <h4>Rs.000.00</h4>
+                        <button class="button">Shop Now</button>
+                    </div>
+                    <div class="card">
+                         <img src="The_Fault_in_Our_Stars.jpg" alt="book">
+                        <h4>The Fault in Our Stars</h4>
+                        <h4>Rs 000.00</h4>
+                        <button class="button" >Shop Now</button>
+                    </div> 
+                    <div class="card">
+                        <img src="RDPD.jfif" alt="book">
+                        <h4>Rich dad Poor dad</h4>
+                        <h4>Rs.000.00</h4>
+                        <button class="button">Shop Now</button>
+                    </div>
+                    <div class="card">
+                        <img src="WOF.jfif" alt="book">
+                        <h4>Wings Of Fire</h4>
+                        <h4>Rs.000.00</h4>
+                        <button class="button">Shop Now</button>
+                    </div>
+    
+                </div>
+            </div>    
+        </div>  
+    </div>
+<script src="app.js"></script>
 </body>
 </html>
