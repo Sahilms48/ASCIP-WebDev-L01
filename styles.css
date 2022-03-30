@@ -1,5 +1,5 @@
 html{
-    scroll-behavior: smooth;  /*00ok*/
+  scroll-behavior: smooth;  /*00ok*/
 }
 .header h1 {
 font-size: 40px;
@@ -11,202 +11,96 @@ background-color:black;
 width: 100%;
 top:0px;
 }
+
+
 .navbar a {
-    float:left;
-    display: block;
-    color: white;
-    text-align:center;
-    padding: 14px 20px;
-    text-decoration: none;
-    }
-    
-    
+float:left;
+display: block;
+color: white;
+text-align:center;
+padding: 14px 20px;
+text-decoration: none;
+}
+
+
 .navbar a:hover {
-    background-color: #ddd;
-    color: black;
-    }
-    
-    
+background-color: #ddd;
+color: black;
+}
+
+
 .navbar a.active {
-    background-color: #666;
-    color: white;
-    }
+background-color: #666;
+color: white;
+}
 
 img{
-        cursor: pointer;
-        width: 170px;
-        height: 250px;
-        /*margin-left: 20%;*/
-    }
-    
-.col-sm-4{
-        text-align: center;
-    }
-    
-.col-sm-4:hover{
-        background-color:rgba(245, 245, 245, 0.596);
-        padding: 3px;
-        
-    }
-    
-#title{
-        text-align: center;
-        width: 100%;
-        height: 70px;
-        
-}
-h1{
-        text-align: center;
-        width: 100%;
-        height: 40px;
-        font-weight: 500;
-    
-}
-hr{
-        height:2px;border-width:0;color:gray;background-color:gray;
-}
-.side{
-    margin-left: 20px;
-}
-.button{
-    padding: 12px;
-    color: black;
-    text-align: center;
-    cursor: pointer;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-.card{
-    text-align: center;
-    margin-left: 100px;
-    
-}
-.card-img{
-    width: 250px;
-    height: 150px;
-    margin-top: 50px;
-    
-}
-.card .button{
-    background-color:lawngreen;
-    border-radius: 5px;
-    font-size: 18px;
-    padding: 10px;
-}
-
-#bestseller{
-    border-radius: 20px;
-    border-style: solid;
-}
-
-* {box-sizing:border-box}
-
-
-.slideshow-container {
-  max-width: 100vw;
-  position: relative;
-  margin: auto;
-}
-
-
-.mySlides {
-  display: none;
-}
-
-
-.prev, .next {
   cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+  width: 170px;
+  height: 250px;
+  /*margin-left: 20%;*/
 }
 
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
+.col-sm-4{
   text-align: center;
 }
 
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-#Authors{
-  background-image: url(https://wallpapercave.com/wp/wp2633736.png);
-  background-size: cover;
+.col-sm-4:hover{
+  background-color:rgba(245, 245, 245, 0.596);
   padding: 3px;
+  
+}
+
+#title{
+  text-align: center;
+  width: 100%;
+  height: 70px;
+  
+}
+h1{
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  font-weight: 500;
+
+}
+hr{
+  height:2px;border-width:0;color:gray;background-color:gray;
+}
+
+.side{
+  margin-left: 20px;
+}
+
+.button{
+  padding: 12px;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.card{
+  text-align: center;
+  margin-left: 100px;
+  
+}
+.card-img{
+  width: 250px;
+  height: 150px;
+  margin-top: 50px;
+  
+}
+.card .button{
+  background-color:lawngreen;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+#bestseller{
   border-radius: 20px;
   border-style: solid;
-}
-#Authors .button{
-  background: lightcyan;
-  font-size: 15px;
-  border-radius :7px;
-  margin-bottom: 20px;
-  margin-top: 20px;
 }
 #Authors{
   background-image: url(https://wallpapercave.com/wp/wp2633736.png);
